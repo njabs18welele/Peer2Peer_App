@@ -1,0 +1,22 @@
+Pin to connect with the server = 123
+
+Step 1:
+Ensure PyQt5 Installation: 
+Make sure you have PyQt5 installed. You can install it via pip on CMD if you haven't already:
+Run the command:
+pip install PyQt5
+
+Step 2:
+Run the Server Code: Open a terminal or command prompt, navigate to the directory where you saved server.py, and run the server code:
+PS C:\Users\njabu> cd c:/Users/njabu/OneDrive/Desktop/Mzwesh/
+python server.py
+This will start the server, which will be listening for incoming client connections.
+
+Step3
+Run the Client Code: Open another terminal or command prompt, navigate to the directory where you saved client.py, and run the client code:
+python client.py
+This will start the client application, which should connect to the server.
+
+Interact with the Chat App: Once both the server and client are running, you can interact with the chat application GUI provided by the client code. You can enter your name, the server's hostname and port number, and connect to the server. Then, you can send messages or files to other connected clients.
+
+Quit the Application: To quit the application, you can click the "Quit" button on the client GUI. This will close the client application and disconnect it from the server. You can also stop the server by terminating its process in the terminal where it is running.
